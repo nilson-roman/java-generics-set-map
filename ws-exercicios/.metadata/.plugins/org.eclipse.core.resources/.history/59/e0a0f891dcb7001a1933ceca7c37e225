@@ -1,0 +1,28 @@
+package model.entities;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class Course {
+
+	private String name;
+	private List<User> list = new ArrayList<>();
+	
+	public Course(String name) {
+		this.name = name;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+
+	public void addStudent(User student) {
+		list.add(student);
+	}
+	
+}

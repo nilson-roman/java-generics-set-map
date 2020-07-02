@@ -1,0 +1,25 @@
+package application;
+
+import model.entities.Course;
+import model.entities.Instructor;
+import model.entities.Student;
+import model.entities.User;
+
+public class Program {
+
+	public static void main(String[] args) {
+		
+		User instructor = new Instructor(1, "Alex");
+		User student1 = new Student(21, "Nilson");
+		User student2 = new Student(35, "Roberto");
+		User student3 = new Student(22, "Oliveira");
+		User student4 = new Student(50, "Bob");
+		User student5 = new Student(45, "Brown");
+		User student6 = new Student(13, "Jack");
+		
+		Course cA = new Course("Course A", instructor);
+		instructor.printCourse();
+		
+	}
+
+}

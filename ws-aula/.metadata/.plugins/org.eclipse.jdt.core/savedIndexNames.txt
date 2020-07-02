@@ -1,0 +1,1 @@
+INDEX VERSION 1.131+/home/nilson/Documentos/Desenvolvimento/Programação/Java/Udemy_JavaCompleto/modulo_Generics_Set_Map/ws-aula/.metadata/.plugins/org.eclipse.jdt.core
